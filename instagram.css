@@ -1,5 +1,5 @@
 #logo {
-    width:8%;
+    width:15%;
 }
 #profile_pic {
     width:10%;
@@ -7,4 +7,29 @@
 
 .highlight img {
     width:5%;
+}
+
+.thumbnail_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.back {
+    max-width:100%;
+    max-height:100%;
+    background-color: black;
+    overflow:hidden;
+}
+
+.thumbnail {
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+body {
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
