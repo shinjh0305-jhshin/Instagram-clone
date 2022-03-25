@@ -11,9 +11,9 @@
 
 .thumbnail_grid {
     display: grid;
-    width: 60vw;
-    height:50vh;
+    min-height: 0;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     row-gap: 10px;
     column-gap: 1%;
 }
@@ -21,7 +21,7 @@
 .back {
     background-color: black;
     background-position: center;
-    width:100%;
+    /*width:100%;*/
     height:60px;
     padding-top:50%;
     padding-bottom:50%;
